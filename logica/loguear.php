@@ -14,7 +14,7 @@
 
     if ($array['contar']>0) {
         $_SESSION['name_user'] = $user;
-        header("location: ../pagprin.php");
+        header("location: ../pagprin.html");
     } else {
         echo "DATOS INCORRECTOS";
     }
