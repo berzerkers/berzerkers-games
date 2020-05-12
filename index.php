@@ -1,0 +1,31 @@
+<html>
+
+  <head>
+	<meta charset="utf-8">
+  	<title></title>
+	<link rel="stylesheet" href="css/style-login.css">
+  </head>
+
+  <body>	  
+	  <div class="login-box">
+	  	<img class="avatar" src="img/avatar.png" alt="Logo On">
+		  <h1>Iniciar Sesión</h1><br>
+		  <form action="logica/loguear.php" method="POST">
+
+		  	<label for="mail">Correo</label>
+			<input type="text" name="mail" placeholder="Introduce Tu Correo">
+			
+			<label for="pass">Contraseña</label>
+			<input type="password" name="pass" placeholder="Introduce Tu Contraseña">
+			
+			<input type="submit" value="Entrar">
+			  
+			  
+			<a href="#">¿Olvidaste tu contraseña?</a><br>
+			<a href="signup.php">¿No tienes una cuenta?</a>
+		  </form>
+		</div>
+	
+  </body>
+
+</html>
